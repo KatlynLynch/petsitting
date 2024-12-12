@@ -1,0 +1,212 @@
+* { margin: 0; padding: 0; }
+
+body {
+  background: lightblue;
+  margin: 30;
+  padding: 10;
+  text-align: center;
+  align: center; /*I just added this*/
+  max-width: 100%; /*changing this from 80% to 100% seems to have fixed the problem on web but not mobile*/
+  overflow-x: hidden;
+  /*position: absolute;*/
+}
+
+.container{
+  display: inline-block;
+  margin-left: 0 auto;
+  margin-right: 0 auto; /*just changed from 20 to 0*/
+  /*width: 450px;*/
+  max-width: 800px;
+}
+
+h1 {
+  color: purple;
+  display: block;
+  font-family: 'Perpetua', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin:25;
+  text-transform: uppercase;
+}
+#best {
+  color: hotpink;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+h2{
+  color: purple;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+img{
+  padding: inherit;
+  margin:auto;
+  width: 300px;
+  display: block;
+}
+
+dd {
+  color: purple;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 200;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 30px, 30px, 30px, 30px;
+  
+}
+
+h3 {
+  color: purple;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 3px;
+  text-transform: capitalize;
+  text-align: center;
+}
+#nav_text{
+  color: hotpink;
+  font-family: 'Oxygen', sans-serif;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  background-color: rgb(217, 255, 246);
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#need_to_know{
+  color: purple;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#need_to_know_box{
+  display: block;
+  background: rgb(217, 255, 246);
+  width: 500px;
+  height: 590px;
+  border: 30px solid rgb(217, 255, 246);
+  margin-bottom: 20px 0;
+}
+
+
+#facts_box{
+display: block;
+background: rgb(217, 255, 246);
+width: 300px;
+height: 210px;
+border: 30px solid rgb(217, 255, 246);
+text-align: center;
+margin-left: 18%;
+margin-top: 19%;
+}
+
+p{
+font-family: 'Oxygen', sans-serif;
+font-size: 20px;
+font-weight: 300;
+line-height: 1.7;
+}
+
+#look_out{
+  color: purple;
+  font-family:  'Oxygen', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#look_out_box{
+  display: block;
+  background: rgb(217, 255, 246);
+  width: 500px;
+  height: 720px;
+  border: 30px solid rgb(217, 255, 246);
+  padding-top: 1;
+}
+
+#allergies_box{
+   display: block;
+  background: rgb(217, 255, 246);
+  width: 500px;
+  height: 250px;
+  border: 30px solid rgb(217, 255, 246);
+  padding-top: 1;
+}
+
+ul {
+  list-style-type: "♡";
+  list-style-position: inside;
+  display: block;
+  padding: 1;
+  margin-left: 0;
+  text-align: left;
+}
+
+li {
+  color: hotpink;
+  display: listitem;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-left: -35px;
+  padding: 3px;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+/* Table */
+
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: visible;
+  position: static;
+  width: 100%;
+}
+
+thead td{
+  background: rgb(157, 252, 230);
+  color: purple;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: rgb(217, 255, 246);
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  color: hotpink;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
+  font-size: 18px;
+}
